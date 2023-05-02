@@ -1,16 +1,8 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Laravel</title>
-         @vite('resources/js/app.js')
-    </head>
-    <body>
-        <div class="container">
-            <h1>Template Classe 89</h1>
-            <img src="{{ Vite::asset('resources/img/pluto.webp') }}" alt="" srcset="">
-        </div>
+@extends('layouts.app')
 
-    </body>
-</html>
+<div class="bg_header d-flex justify-content-center">
+    <div class="top_header d-flex justify-content-end">
+        <span class="me-5">DC POWER VISA</span>
+        <span>ADDITIONAL DC SITES</span>
+    </div>
+</div>

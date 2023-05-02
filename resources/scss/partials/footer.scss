@@ -1,0 +1,90 @@
+div.footer_top{
+    height: 9.75rem;
+    align-items: center;
+    display: flex;
+    // font-family: $font;
+    font-weight: 600;
+    &.container{
+        display: flex;
+        flex-direction: column;
+        width: 79.375rem;
+        margin: auto;
+        justify-content: space-between;
+        color: #ffffff;
+    }
+    & img{
+        width: 50px;
+        margin-right: 10px;
+    }
+}
+.bg {
+    background-image: url('../img/footer-bg.jpg');
+    height: 370px;
+}
+.container_footer {
+    // background
+    background-image: url('./img/dc-logo-bg.png');
+    background-repeat: no-repeat;
+    height: 370px;
+    background-position: 700px;
+
+    width: 79.375rem;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: baseline;
+    // font-family: $font;
+
+    & a {
+        text-decoration: none;
+        color: rgb(148, 147, 147);
+        display: flex;
+        padding: 2px;
+
+        &:hover {
+            color: rgb(207, 207, 207);
+        }
+    }
+}
+.section {
+    padding: 20px;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffffff;
+}
+.bigContainer {
+    background-color: #303030;
+    height: 112px;
+    display: flex;
+}
+.container_bottom {
+    width: 79.375rem;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.signup{
+    padding: 10px;
+    font-size: 15px;
+    background-color: #303030;
+    color:#ffffff;
+    border-color: #0282f9;
+}
+.socialLink{
+    display: flex;
+    align-items: center;
+    & span{
+        padding-left: 20px;
+    }
+    & h3{
+        // font-family: $font;
+        color: #0282f9;
+    }
+}
+.container_footer_top{
+    background-color: #0282f9;
+}

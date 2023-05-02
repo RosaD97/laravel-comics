@@ -1,0 +1,68 @@
+div.main {
+    background-color: #1c1c1c;
+}
+
+.container {
+    width: 79.375rem;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    padding: 1.875rem 0 2.5rem 0;
+
+    & h2 {
+        color: #ffffff;
+        // font-family: $font;
+    }
+}
+
+.jumbotron {
+    height: 25rem;
+    background-image: url(../img/jumbotron.jpg);
+}
+section {
+    // font-family: $font;
+    color: blue;
+    position: relative;
+    margin-top: 20px;
+}
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    width: 79.375rem;
+
+
+    .card {
+        flex-basis: calc(100% / 6);
+        margin-bottom: 30px;
+        width: 90%;
+        height: 150px;
+        object-fit: cover;
+        &:hover{
+            cursor: pointer;
+            filter: brightness(40%);
+        }
+    }
+}
+h2 {
+    position: absolute;
+    top: -5.9375rem;
+    left: 0;
+    padding: 10px;
+}
+.text {
+    background-color:#0282f9;
+}
+
+button {
+    color: #ffffff;
+    border: none;
+    // font-family: $font;
+    padding: 10px 40px 10px 40px;
+    font-weight: 700;
+    display: flex;
+    margin: auto;
+    &:hover{
+        background-color: darken(#0282f9, 20%);
+        cursor: pointer;
+    }
+}
