@@ -1,9 +1,16 @@
-
 <header>
+    <div class="bg_header d-flex justify-content-center">
+        <div class="top_header d-flex justify-content-end">
+            <span class="me-5">DC POWER VISA</span>
+            <span>ADDITIONAL DC SITES</span>
+        </div>
+    </div>
         <div class="container_header">
+            {{-- Logo Header--}}
             <div>
-                <img src="{{ Vite::asset('resources/img/dc-logo.png') }}">
+                <a href="{{ route('home')}}"><img src="{{ Vite::asset('resources/img/dc-logo.png') }}"></a>
             </div>
+            {{-- Menu --}}
             <div class="menu">
                 <div class="menu_list">
                     <ul>
@@ -21,4 +28,5 @@
                 </div>
             </div>
         </div>
+        <div class="jumbotron"></div>
 </header>
