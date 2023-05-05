@@ -32,5 +32,5 @@ Route::get('/comics/{index}', function ($index) {
      ];
 
     return view('comics', $data);
-})->name('comics')->where('index', '[0,9]+');
+})->name('comics')->where('index', '[0-9]+');
 
